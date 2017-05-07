@@ -6,10 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <title>Kosuke Futamata's page</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-lightbox.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script type="text/javascript" href="js/jquery.min.js"></script>
         <script type="text/javascript" href="js/bootstrap.min.js"></script>
+        <script type="text/javascript" href="js/bootstrap-lightbox.min.js"></script>
+        <script type="text/javascript" href="js/main.js"></script>
     </head>
     <body>
         <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -211,10 +214,8 @@
                                     <li>awarded for sponsords price.</li>
                                 </ul>
 
-                                <div class="col-md-10 col-lg-10">
-                                    <img src="images/scheduling.png" alt="image" class="img-responsive"> 
-                                    <img src="images/scheduling2.png" alt="image" class="img-responsive">
-                                </div>
+                                <img src="images/scheduling.png" alt="image">
+                                <img src="images/scheduling2.png" alt="image">
                             </div>
 
                             
@@ -229,9 +230,8 @@
                                     <li>Evaluates quality of dialogue by estimating whether or not contents of your speech are positive.</li>
                                     <li>please refer to <a href="https://devpost.com/software/tk_1616">here</a> in detail.</li>
                                 </ul>
-                                <div class="col-md-10 col-lg-10">
-                                    <img src="images/date_me.png" alt="image" class="img-responsive">
-                                </div>
+
+                                <img src="" alt="image">
                             </div>
                         </section>
 
