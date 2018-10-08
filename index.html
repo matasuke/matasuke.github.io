@@ -1,129 +1,355 @@
-
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="" />
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>Kosuke Futamata's page</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script type="text/javascript" href="js/jquery.min.js"></script>
+        <script type="text/javascript" href="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">est</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="">Kosuke Futamata's page</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#about">About</a></li>
+                    <li class="active"><a href="#skills">Skills</a></li>
+                    <li class="active"><a href="#Education">Education</a></li>
+                    <li class="active"><a href="#Research">Research</a></li>
+                    <li class="active"><a href="#Products">Products</a></li>
+                    <li class="active"><a href="#Employments">Employments</a></li>
+                    <li class="active"><a href="#Awards">Awards</a></li>
+                    <li class="active"><a href="#Other">Others</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+                    <div class="text-center">
+                        
+                        <section id="main" style="margin-top: 100px;">
+                            <img src="images/profile.jpg" alt="photo" class="img-circle">
+                            <h1>Kosuke Futamata</h1>
+                            <h3>Email: kosuke.matasuke@gmail.com</h3>
+                            <ul class="icon-links">
+                                <li class="icon-link-item">
+                                    <a class="github-icon" href="https://github.com/matasukef"></a>
+                                    <a class="twitter-icon" href="https://twitter.com/Matasuke_f"></a>
+                                    <a class="facebook-icon" href="https://www.facebook.com/"></a>
+                                    <a class="home-icon" href="https://matasukef.github.io"></a>
+                                    <a class="linkedin-icon" href="https://www.linkedin.com/in/kosuke-futamata-862b68124/"></a>
+                                </li>
+                            </ul>
+                        </section>
+                    
+                        <section id="about" style="text-align:left;">
+                            <h1 style="line-height: 50%;">About</h1>
+                            <hr>
+                            <p>
+                            I'm a 23 years old graduate school student at Nara Institute of Science and Technology, majoring in information science.  My career is written at <a href="#Education">Education</a>, <a href="#Employments">Employments</a>, <a href="#Other">Other career</a>.</p>
+                             <p>My research interest is in Natural language Processing focusing on Machine Translation, Dialogue System based on Neural Networks.
+                            </p>
 
-  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+                        </section>
 
-    <link rel="stylesheet" type="text/css" href="matasuke.github.io/theme/stylesheet/style.min.css">
+                        <section id="skills" style="text-align: left;">
+                            <h1 style="line-height: 50%">Skills</h1>
+                            <hr>
+                            <h2>Natural Languages</h2>
+                                <ul>
+                                    <li>Japanese(native)</li>
+                                    <li>Chinese(fluent)</li>
+                                    <li>English(limited)</li>
+                                    <li>Cantonese(limited)</li>
+                                    <li>Turkish(limited)</li>
+                                </ul>
+                            <h2>Programming Languages</h2>
+                                <ul>
+                                    <li><h3>Proficient</h3></li>
+                                        <ul>
+                                            <li>Python, javascirpt</li>
+                                        </ul>
+                                        <li><h3>familier</h3></li>
+                                        <ul>
+                                            <li>C, C++, R, Java</li>
+                                        </ul>
+                                    <li><h3>Other skills</h3></li>
+                                        <ul>
+                                            <li>Neural Network's frameworks</li>
+                                            <ul><li>Keras, Chainer</li></ul>
+                                        </ul>
+                                </ul>
+                                <!--commonly used software and pictures -->
 
-  <link rel="stylesheet" type="text/css" href="matasuke.github.io/theme/pygments/github.min.css">
-  <link rel="stylesheet" type="text/css" href="matasuke.github.io/theme/font-awesome/css/font-awesome.min.css">
+                                
+                        </section>
 
+                        <section id="Education"  style="text-align:left;">
+                            <h1 style="line-height: 50%;">Education</h1>
+                            <hr>
+                            
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 text-left">
+                                    <h2>Certificate for Students Achieving the Proficiency Level of Upper Secondary School Graduates</h2>
+                                </div>
+                                <div class="col-md-6 col-lg-6 text-right">
+                                    <h2>August, 2010</h2>
+                                    <h3>Tokyo, Japan</h3>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>高校卒業認定試験</li>
+                            </ul>
 
-    <link href="matasuke.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Kosuke Futamata's page Atom">
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 text-left">
+                                    <h2>Waseda University</h2>
+                                    <h3>Department of Human Behavior and Environment Sciences</h3>
+                                </div>
+                                <div class="col-md-6 col-lg-6 text-right" style="margin-top: 50px;" >
+                                    <h2>April. 2014 - March, 2018</h2>
+                                    <h3>Tokyo, Japan</h3>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>Major in Human Behavior and Environment Sciences</li>
+                                <li>Mainly study Machine Learning and Linguistics</li>
+                                <li>Undergraduate research is making a humor sentence from images based on incongruity-resolution theory..</li>
+                                <li>GPA 3.62/4.00</li>
+                            </ul>
 
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 text-left">
+                                    <h2>Zhejiang University</h2>
+                                    <h3>College of Computer Science and Technology</h3>
+                                </div>
+                                <div class="col-md-6 col-lg-6 text-right">
+                                    <h2>August, 2015 - July, 2016</h2>
+                                    <h3>Zhejiang, China</h3>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>one year study abroad program as an exchange student.</li>
+                                <li>The program is conducted by half Chinese and half English.</li>
+                                <li>Mainly study Computer Architecture and Computer Networks.</li>
+                                <li>Supported by JASSO Scholarship for Study Abroad Program.</li>
+                                <li>GPA 3.00/4.00</li>
+                            </ul>
 
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 text-left">
+                                    <h2>nara institute of science and technology</h2>
+                                    <h3>Information Science</h3>
+                                </div>
+                                <div class="col-md-6 col-lg-6 text-right">
+                                    <h2>April, 2018 - Now</h2>
+                                    <h3>Nara, Japan</h3>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>major in information science.</li>
+                            </ul>
+                        </section>
 
+                        <section id="Research" style="text-align: left;">
+                            <h1 style="line-height: 50%;">Research</h1>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 text-left">
+                                    <h2>Generate humor sentences from images automatically and facilitate desire for continueing dialogue(Japanese).</h2>
+                                    <h3>NLP2018</h3>
+                                </div>
+                                <div class="col-md-6 col-lg-6 text-right">
+                                    <h2>Mar, 2018</h2>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>Supervised by Prof. Hideaki Kikuchi, Waseda University</li>
+                                <li>Propose the method to make a humor sentence from images based on incongruity-resolution theory.</li>
+                                <li>Recently, many dialogue systems such as Apple's siri, Amazon's alexa are develoved by buch of companies, and are used by many customers. So these kind of system has to continuously be used for a long time because customers use it in daily life. As one of method to let users of dialogue systems use dialogue system continuously, using humor is recognized as a way to let them use it continuously. So in this paper, We propose a method to let user of dialogue system use it for a long time. proposed method is based on incongruity-resolution theory, which is recognized as major theory to explain generating factor of humor, and generate humor sentence from images. As a result of experiments, it found that the method can facilitate continuous dialogue between user of dialogue system and these kind of system.</li>
+                            </ul>
 
-    <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#333">
-    <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#333">
-    <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <!-- Microsoft EDGE -->
-    <meta name="msapplication-TileColor" content="#333">
+                        </section>
 
-    <meta name="author" content="Kosuke Futamata" />
-    <meta name="description" content="This web site is about kosuke futamata's portfolio" />
-<meta property="og:site_name" content="Kosuke Futamata's page"/>
-<meta property="og:type" content="blog"/>
-<meta property="og:title" content="Kosuke Futamata's page"/>
-<meta property="og:description" content="This web site is about kosuke futamata's portfolio"/>
-<meta property="og:locale" content="ja_JP"/>
-<meta property="og:url" content="matasuke.github.io"/>
-<meta property="og:image" content="images/profile.jpg">
+                        <section id="Products" style="text-align: left;">
+                            <h1 style="line-height: 50%;">Products</h1>
+                            <hr>
+                            
+                            <div class="row">
+                                <h2>Binary classifier between AV idols and Bikini idols</h2>
+                                <ul>
+                                    <li>This product tells differences between AV idols and Bikini idols based on their faces.</li>
+                                    <li>It got 95.6% accuracy rate.</li>
+                                    <li>implemented by Keras.(implementing by Chainer.)</li>
+                                    <li>Source code is available <a href="https://github.com/matasukef/binary-classifier-between-bikini-idol-and-AV-adol">here</a></li>
+                                </ul>
+                                <div class="col-md-10 col-lg-10">
+                                    <img src="images/av2.png" alt="image" class="img-responsive">
+                                    <img src="images/av1.png" alt="image" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <h2>Similar AV idols searcher</h2>
+                                <ul>
+                                    <li>This product can tell the differences of more than 1000 AV idols.</li>
+                                    <li>Web application for searching for similar AV idols from face images.</li>
+                                    <li>Implement it using Chainer.</li>
+                                    <li>you can search AV idols by prefered images like other AV idols, Actresses, person you like and so on.</li>
+                                    <li>Source code is available <a href="https://github.com/matasukef/AV_classifier">here</a></li>
+                                    <li>Now, it is reconstructed...</li>
+                                </ul>
+                            </div>
 
-  <title>Kosuke Futamata's page</title>
+                            <div class="row">
+                                <h2>Scheduling management bot</h2>
+                            </div>
+                            <div class="row">
+                                <ul>
+                                    <li>Scheduling management bot using Beacon Tag.</li>
+                                    <li>you can get notification about one day's appointments and how to change trains to distination and so on, when you go out home.</li>
+                                    <li>created using Line messaging API.</li>
+                                    <li>This product is created in My Future Hackathon.</li>
+                                    <li>awarded for sponsords price.</li>
+                                </ul>
 
-</head>
-<body>
-  <aside>
-    <div>
-      <a href="matasuke.github.io">
-        <img src="images/profile.jpg" alt="Kosuke Futamata" title="Kosuke Futamata">
-      </a>
-      <h1><a href="matasuke.github.io">Kosuke Futamata</a></h1>
+                                <div class="col-md-10 col-lg-10">
+                                    <img src="images/scheduling.png" alt="image" class="img-responsive"> 
+                                    <img src="images/scheduling2.png" alt="image" class="img-responsive">
+                                </div>
+                            </div>
 
-<p>Software Engineer</p>
-      <nav>
-        <ul class="list">
-          <li><a href="matasuke.github.io/pages/about.html#about">About</a></li>
-          <li><a href="matasuke.github.io/pages/products.html#products">Products</a></li>
-          <li><a href="matasuke.github.io/pages/research.html#research">Research</a></li>
+                            
+                            <div class="row">
+                                <h2>Date me</h2>
+                            </div>
+                            <div class="row">
+                                <ul>
+                                    <li>VR game for fostering your communication skills for dating.</li>
+                                    <li>created using Oculus HDM and Unity..</li>
+                                    <li>This product is created in JP Hacks.</li>
+                                    <li>Evaluates quality of dialogue by estimating whether or not contents of your speech are positive.</li>
+                                    <li>please refer to <a href="https://devpost.com/software/tk_1616">here</a> in detail.</li>
+                                </ul>
+                                <div class="col-md-10 col-lg-10">
+                                    <img src="images/date_me.png" alt="image" class="img-responsive">
+                                </div>
+                            </div>
 
-          <li><a href="http://matasuke.hatenablog.jp/" target="_blank">Japanese Blog</a></li>
-          <li><a href="https://qiita.com/Matasuke_f" target="_blank">Qiita</a></li>
-        </ul>
-      </nav>
+                            <div class="row">
+                                <h2>AV actoresses dataset</h2>
+                            </div>
+                            <div class="row">
+                                <ul>
+                                    <li>Now constructing Dataset of AV idols including face images, profiles, titles of their videos and so on.</li>
+                                    <li>This dataset is used for AV_classifier and binary-classifier-between-bikini-idol-and-AV-adol.</li>
+                                </ul>
+                            </div>
 
-      <ul class="social">
-        <li><a class="sc-twitter" href="https://twitter.com/matasuke_f" target="_blank"><i class="fa fa-twitter"></i></a></li>
-        <li><a class="sc-github" href="https://github.com/matasuke" target="_blank"><i class="fa fa-github"></i></a></li>
-        <li><a class="sc-facebook" href="https://www.facebook.com/matasukef" target="_blank"><i class="fa fa-facebook"></i></a></li>
-        <li><a class="sc-slideshare" href="https://www.slideshare.net/KosukeFutamata/presentations" target="_blank"><i class="fa fa-slideshare"></i></a></li>
-        <li><a class="sc-linkedin" href="https://www.linkedin.com/in/kosuke-futamata-862b68124/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-      </ul>
-    </div>
+                        </section>
 
+                        <section id="Employments" style="text-align: left;">
+                            <h1 style="line-height: 50%;">Employments</h1>
+                            <hr>
 
-  </aside>
-  <main>
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 text-left">
+                                    <h2>Worked in a Wrecking company</h2>
+                                    <h3>Worked as a manual laborer</h3>
+                                </div>
+                                <div class="col-md-6 col-lg-6 text-right">
+                                    <h2>April, 2009 - March 2011</h2>
+                                    <h3>Saitama Japan</h3>
+                                </div>
+                            </div>
 
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 text-left">
+                                    <h2>RIKEN Brain Science Institute BTCC RIKEN BSI-TOYOTA Collaboration Center</h2>
+                                    <h3>Software Engeneer part-time job</h3>
+                                </div>
+                                <div class="col-md-6 col-lg-6 text-right">
+                                    <h2>July, 2016 - Now</h2>
+                                    <h3>Saitama, Japan</h3>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 text-left">
+                                    <h2>Waseda University</h2>
+                                    <h3>Teaching Assistant</h3>
+                                </div>
+                                <div class="col-md-6 col-lg-6 text-right">
+                                    <h2>April. 2017 - Now</h2>
+                                    <h3>Saitama, Japan</h3>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>Teaching Assistant in Statistics classes.</li>
+                            </ul>
+                        </section>
 
+                        <section id="Qualifications" style="text-align: left">
+                            <h1 style="line-height: 50%;">Qualifications</h1>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 text-left">
+                                    <h3>Applied Information Technology Engineer Examination</h3>
+                                    <h3>HSK6(Chinese Proficiency test)</h3>
+                                    <h3>TOEIC 890</h3>
+                                    
+                                </div>
+                                <div class="col-md-6 col-lg-6 text-right">
+                                    <h3>June 2017</h3>
+                                    <h3>Sep 2016</h3>
+                                    <h3>May 2014</h3>
+                                </div>
+                            </div>
+                        </section>
+                        
+                        <section id="Awards" style="text-align: left;">
+                            <h1 style="line-height: 50%;">Awards</h1>
+                            <hr>
+                            <ul>
+                                <li>JASSO Scholarship for Study Abroad Program(around ¥800,000). August, 2015 - July, 2016</li>
+                                <li>My future hackathon sponsords award. October 2016</li>
+                                <li>CONICA MINOLTA hackathon 2017 1st prize</li>
+                                <li>Passed Applied Information Technology Engineer Examination. June 2017</li>
+                            </ul>
+                        </section>
+                        <!--
+                        <section id="Other" style="text-align: left;">
+                            <h1 style="line-height: 50%;">Others</h1>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-6 col-lg-6 text-left">
+                                    <h2>Backpacking to Oceania countries</h2>
+                                    <h3></h3>
+                                </div>
+                                <div class="col-md-6 col-lg-6 text-right">
+                                    <h2>April, 2011 - April, 2012</h2>
+                                    <h3>Oceania Countries</h3>
+                                </div>
+                            </div>
+                        </section>
+                        -->
 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 
-
-  <div class="pagination">
-  </div>
-
-
-
-
-    <footer>
-<p>&copy; Kosuke Futamata 2018</p>
-<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
-</p>    </footer>
-  </main>
-
-
-
-
-<script type="application/ld+json">
-{
-  "@context" : "http://schema.org",
-  "@type" : "Blog",
-  "name": " Kosuke Futamata's page ",
-  "url" : "matasuke.github.io",
-  "image": "images/profile.jpg",
-  "description": "This web site is about kosuke futamata's portfolio"
-}
-</script>
-
-<a href="https://github.com/matasuke" class="github-corner" aria-label="View source on Github">
-    <svg width="80"
-         height="80"
-         viewBox="0 0 250 250"
-         style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;"
-         aria-hidden="true">
-        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
-              fill="currentColor"
-              style="transform-origin: 130px 106px;"
-              class="octo-arm">
-        </path>
-        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
-              fill="currentColor"
-              class="octo-body">
-        </path>
-    </svg>
-</a>
-<style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style></body>
-</html>
